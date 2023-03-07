@@ -1,5 +1,2 @@
-# small-projects
-Small projects that I work on
-
-stock-prediction:
-Need to use command to run: py -m streamlit run stock-prediction.py
+Predicts future stock prices using Prophet by Facebook, allowing it to sense and follow seasonal trends as well as use past data to make educated estimates.
+This tool lacks any features that take the current stock market's health into account, and provides calculations based purely on Prophet's algorithms, past data, and recurring themes/trends in data in terms of time of day, day of week, month of year, etc.
